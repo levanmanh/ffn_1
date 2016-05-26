@@ -2,11 +2,14 @@
   <div class="container">
     <ul class="navbar navbar-left">
       <li><%= link_to t("static_pages.home"), root_path %></li>
+      <li><%= link_to t("admin.season.season_name"), admin_seasons_path %></li>
     </ul>
     <ul class="navbar navbar-right">
       <li><%= link_to t("static_pages.login"), "#" %></li>
       <li><%= link_to t("static_pages.signup"), "#" %></li>
+      <li><%= link_to t("static_pages.logout"),
+        destroy_user_session_path, method: :delete %>
+      </li>
     </ul>
   </div>
 </nav>
-

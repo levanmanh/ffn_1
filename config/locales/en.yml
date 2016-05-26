@@ -21,7 +21,28 @@
 
 en:
   static_pages:
-    home: "Home"
-    title: "Fr@mgi@ Football News"
-    login: "Login"
-    signup: "Sign Up"
+    home   : "Home"
+    title  : "Fr@mgi@ Football News"
+    login  : "Login"
+    signup : "Sign Up"
+  admin:
+    season:
+      create_success: "Create Season Success!"
+      create_season : "Create Season"
+      season_name   : "Seasons"
+      Wrong         : "Wrong!"
+      list_season: "List Season"
+      name: "Name"
+      description: "Description"
+      number_of_team: "Number Of Team"
+      number_of_match: "Nmber Of Match"
+      sure: "Are u sure?"
+      destroy: "Delete Season"
+      new_season: "New Season"
+      admin_authorize: "You not admin?"
+      update_season_success: "Update Season Success!"
+      update_season_error: "Update Season Error!"
+      delete_season_success: "Delete Season Success!"
+  shared:
+    form : "Form"
+    error: "Error"

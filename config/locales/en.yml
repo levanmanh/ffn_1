@@ -45,6 +45,9 @@ en:
       delete_season_success: "Delete Season Success!"
       edit_season : "Edit Season"
       update_season : "Update Season"
+    player:
+      create_player_success: "Create Player Success!"
+      error: "Error!"  
   shared:
     form : "Form"
     error: "Error"
